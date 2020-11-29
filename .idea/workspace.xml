@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f165e96-9a9c-4140-b365-95651ea09539" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/gui/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gui" />
+  </component>
+  <component name="ProjectId" id="1ksCF1Bh8Xc1kXOyypsF3quYMPz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yaml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="C:\Users\Dell\Desktop\node\api\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\node\api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Test (api) - majestic">
+    <configuration name="Up Project" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Build (gui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dev (api)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dev (gui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lint (gui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (api) - console" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:console" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (api) - majestic" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:majestic" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (gui) - console" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:console" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (gui) - majestic" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:majestic" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Up Project" />
+      <item itemvalue="npm.Dev (api)" />
+      <item itemvalue="npm.Dev (gui)" />
+      <item itemvalue="npm.Build (gui)" />
+      <item itemvalue="npm.Test (api) - console" />
+      <item itemvalue="npm.Test (gui) - console" />
+      <item itemvalue="npm.Test (api) - majestic" />
+      <item itemvalue="npm.Test (gui) - majestic" />
+      <item itemvalue="npm.Lint (gui)" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f165e96-9a9c-4140-b365-95651ea09539" name="Default Changelist" comment="" />
+      <created>1606479804454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606479804454</updated>
+      <workItem from="1606479807564" duration="170000" />
+      <workItem from="1606479986266" duration="14131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606524079701">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1506" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606524079701" />
+    <state x="-1122" y="429" key="DockerComposeFileDialog" timestamp="1606523667317">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1122" y="429" key="DockerComposeFileDialog/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606523667317" />
+    <state x="-1180" y="295" key="FileChooserDialogImpl" timestamp="1606523665147">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1180" y="295" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606523665147" />
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1606524273647">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606524273647" />
+    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1606524273647">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606524273647" />
+    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1606524273647">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606524273647" />
+    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1606524273647">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606524273647" />
+    <state x="-1459" y="182" key="SettingsEditor" timestamp="1606480207522">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="182" key="SettingsEditor/0.0.1536.864/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1606480207522" />
+  </component>
+</project>

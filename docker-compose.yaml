@@ -1,0 +1,90 @@
+version: "3.8"
+
+services:
+  # db:
+  #   image: "postgres:latest"
+  #   environment:
+  #     - "POSTGRES_HOST_AUTH_METHOD=trust"
+  #     - "POSTGRES_DB=Production"
+  #   ports:
+  #     - 5432:5432
+  #   volumes:
+  #     - psql:/var/lib/postgresql/data/
+  #   networks:
+  #     default:
+  #       aliases:
+  #         - db
+
+  # smtp:
+  #   user: root
+  #   image: "mailhog/mailhog"
+  #   ports:
+  #     - 1025:1025
+  #     - 8025:8025
+  #   environment:
+  #     - MH_STORAGE=maildir
+  #     - MH_MAILDIR_PATH=/maildir
+  #   volumes:
+  #     - mail_storage:/maildir
+  #   networks:
+  #     default:
+  #       aliases:
+  #         - smtp
+
+  api:
+    build:
+      context: api/
+      dockerfile: Dockerfile
+    command: ["npm", "run", "dev"]
+    restart: always
+    # environment:
+    #   - SECRET_KEY=-KaPdSgVkYp3s6v8y/B?E(H+MbQeThWmZq4t7w!z%C&F)J@NcRfUjXn2r5u8x/A?
+    #   - database_host=db
+    #   - email_host=smtp
+    #   - DJANGO_SETTINGS_MODULE=ephemerisAPI.settings.localSettings
+    volumes:
+      - type: bind
+        source: ./api/
+        target: /app
+      - type: volume
+        source: api_modules
+        target: /app/node_modules
+    ports:
+      - 3000:3000
+    # depends_on:
+    #   - db
+    #   - smtp
+    networks:
+      default:
+        aliases:
+          - api
+
+  gui:
+    build:
+      context: gui/
+      dockerfile: Dockerfile
+    command: ["npm", "run", "dev"]
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - 8080:8080
+    volumes:
+      - type: bind
+        source: ./gui
+        target: /app
+      - type: volume
+        source: gui_modules
+        target: /app/node_modules
+    networks:
+      default:
+        aliases:
+          - gui
+
+volumes:
+  # psql:
+  api_modules:
+  gui_modules:
+  # mail_storage:
+
+networks:
+  default:
